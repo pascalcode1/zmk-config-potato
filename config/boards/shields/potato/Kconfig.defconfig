@@ -1,9 +1,9 @@
+if SHIELD_POTATO_LEFT || SHIELD_POTATO_RIGHT
+
 config ZMK_KEYBOARD_NAME
     default "Potato"
 
-if SHIELD_POTATO_LEFT || SHIELD_POTATO_RIGHT
-
-config ZMK_SPLIT
+config BT
     default y
 
 endif
