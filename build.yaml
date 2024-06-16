@@ -19,4 +19,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: potato
+    shield: potato_left
+  - board: nice_nano_v2
+    shield: potato_right
