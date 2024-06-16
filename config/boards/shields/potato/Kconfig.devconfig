@@ -3,4 +3,7 @@ if SHIELD_POTATO
 config ZMK_KEYBOARD_NAME
     default "potato"
 
+config CONFIG_BT
+    default y
+
 endif
