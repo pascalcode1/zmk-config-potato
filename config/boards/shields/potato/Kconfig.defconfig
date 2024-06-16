@@ -6,7 +6,4 @@ config ZMK_KEYBOARD_NAME
 config BT
     default y
 
-config ZMK_SPLIT
-    default y
-
 endif
