@@ -1,9 +1,0 @@
-if SHIELD_POTATO
-
-config ZMK_KEYBOARD_NAME
-    default "potato"
-
-config BT
-    default y
-
-endif
