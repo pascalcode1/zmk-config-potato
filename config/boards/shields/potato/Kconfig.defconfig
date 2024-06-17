@@ -1,7 +1,7 @@
 if SHIELD_POTATO_LEFT || SHIELD_POTATO_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "Potato"
+    default "potato"
 
 config BT
     default y
