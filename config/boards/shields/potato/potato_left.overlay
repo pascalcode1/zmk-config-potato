@@ -1,4 +1,4 @@
-#include "iris.dtsi"
+#include "potato.dtsi"
 
 &kscan0 {
     col-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
