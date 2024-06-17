@@ -3,10 +3,4 @@ if SHIELD_POTATO_LEFT || SHIELD_POTATO_RIGHT
 config ZMK_KEYBOARD_NAME
     default "potato"
 
-config BT
-    default y
-
-config ZMK_SPLIT
-    default y
-
 endif
