@@ -6,7 +6,7 @@
 #define NUMS    1
 
 &lt {
-    tapping-term-ms = <500>;
+    tapping-term-ms = <50>;
 };
 
 / {
