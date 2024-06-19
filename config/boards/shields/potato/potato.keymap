@@ -5,6 +5,10 @@
 #define DEFAULT 0
 #define NUMS    1
 
+&lt {
+    tapping-term-ms = <500>;
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
