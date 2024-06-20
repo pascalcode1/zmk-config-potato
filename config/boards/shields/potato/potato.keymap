@@ -5,6 +5,7 @@
 #define DEFAULT 0
 #define NUMS    1
 #define NAV     2
+#define FUNC    3
 
 &lt {
     tapping-term-ms = <125>;
@@ -32,7 +33,7 @@
                 &kp Q           &kp W           &kp E           &kp R           &kp T                   &kp Y           &kp U           &kp I           &kp O           &kp P
                 &hm LALT A      &hm LSHIFT S    &hm LCTRL D     &hm LGUI F      &kp G                   &kp H           &hm LGUI J      &hm LCTRL K     &hm LSHIFT L    &hm LALT SEMI
                 &kp Z           &kp X           &kp C           &kp V           &kp B                   &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH
-                                                                &lt NUMS TAB    &kp RET                 &lt NAV SPACE   &kp BSPC
+                                                                &lt FUNC TAB    &lt NUMS RET            &lt NAV SPACE   &kp BSPC
             >;
         };
 
@@ -53,6 +54,16 @@
                 &trans          &trans          &trans          &trans          &trans                  &kp K_APP       &kp LEFT_ARROW  &kp UP_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW
                 &trans          &trans          &trans          &trans          &trans                  &none           &kp DEL         &kp INSERT      &kp CAPS        &none
                                                                 &trans          &trans                  &none           &none
+            >;
+        };
+
+        func_layer {
+            bindings = <
+                                &kp F10         &kp F11         &kp F12                                                 &trans          &trans          &trans
+                &trans          &kp F7          &kp F8          &kp F9          &trans                  &trans          &trans          &trans          &trans          &trans
+                &trans          &kp F4          &kp F5          &kp F6          &trans                  &trans          &trans          &trans          &trans          &trans
+                &trans          &kp F1          &kp F2          &kp F3          &trans                  &trans          &trans          &trans          &trans          &trans
+                                                                &none           &none                   &trans          &trans
             >;
         };
     };
