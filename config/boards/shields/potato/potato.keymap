@@ -39,7 +39,7 @@
                                 &trans          &trans          &trans                                                  &none           &none           &kp DEL
                 &trans          &trans          &trans          &trans          &trans                  &none           &kp PAGE_UP     &kp HOME        &kp END         &kp PAGE_DOWN
                 &trans          &trans          &trans          &trans          &trans                  &kp K_APP       &kp LEFT_ARROW  &kp UP_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW
-                &trans          &trans          &trans          &trans          &trans                  &none           &kp none        &kp INSERT      &kp CAPS        &kp none
+                &trans          &trans          &trans          &trans          &trans                  &none           &none           &kp INSERT      &kp CAPS        &none
                                                                 &trans          &trans                  &none           &none
             >;
         };
