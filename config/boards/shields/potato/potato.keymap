@@ -6,6 +6,7 @@
 #define NUMS    1
 #define NAV     2
 #define FUNC    3
+#define MEDIA   4
 
 &lt {
     tapping-term-ms = <125>;
@@ -13,14 +14,6 @@
 
 / {
     macros {
-        ctrl_c: ctrl_c {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_press &kp LCTRL>,
-                       <&macro_tap &kp C>,
-                       <&macro_release &kp LCTRL>;
-        };
-
         cm: ctrl_mode {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
@@ -60,7 +53,7 @@
                                 &kp ESC         &kp GRAVE       &kp BSLH                                                &kp SQT         &kp LBKT        &kp RBKT
                 &kp Q           &kp W           &kp E           &kp R           &kp T                   &kp Y           &kp U           &kp I           &kp O           &kp P
                 &hm LALT A      &hm LSHIFT S    &hm LCTRL D     &hm LGUI F      &kp G                   &kp H           &hm LGUI J      &hm LCTRL K     &hm LSHIFT L    &hm LALT SEMI
-                &kp Z           &kp X           &cth C C        &kp V           &kp B                   &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH
+                &kp Z           &kp X           &cth C C        &cth V V        &kp B                   &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH
                                                                 &lt FUNC TAB    &lt NUMS RET            &lt NAV SPACE   &kp BSPC
             >;
         };
@@ -71,7 +64,7 @@
                 &kp KP_MINUS    &kp N7          &kp N8          &kp N9          &kp KP_DIVIDE           &kp EXCL        &kp AT          &kp HASH        &kp DOLLAR      &kp PERCENT
                 &kp KP_PLUS     &kp N4          &kp N5          &kp N6          &kp KP_MULTIPLY         &kp CARET       &kp AMPS        &kp ASTRK       &kp LPAR        &kp RPAR
                 &kp N0          &kp N1          &kp N2          &kp N3          &kp KP_DOT              &none           &kp MINUS       &kp UNDER       &kp EQUAL       &kp PLUS
-                                                                &none           &none                   &none           &ctrl_c
+                                                                &none           &none                   &mo MEDIA       &ctrl_c
             >;
         };
 
@@ -81,7 +74,7 @@
                 &trans          &trans          &trans          &trans          &trans                  &none           &kp PAGE_UP     &kp HOME        &kp END         &kp PAGE_DOWN
                 &trans          &trans          &trans          &trans          &trans                  &kp K_APP       &kp LEFT_ARROW  &kp UP_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW
                 &trans          &trans          &trans          &trans          &trans                  &none           &kp DEL         &kp INSERT      &kp CAPS        &kp PSCRN
-                                                                &trans          &trans                  &none           &none
+                                                                &trans          &mo MEDIA               &none           &none
             >;
         };
 
@@ -91,6 +84,16 @@
                 &trans          &kp F7          &kp F8          &kp F9          &trans                  &trans          &trans          &trans          &trans          &trans
                 &trans          &kp F4          &kp F5          &kp F6          &trans                  &trans          &trans          &trans          &trans          &trans
                 &trans          &kp F1          &kp F2          &kp F3          &trans                  &trans          &trans          &trans          &trans          &trans
+                                                                &none           &none                   &trans          &trans
+            >;
+        };
+
+        multimedia_layer {
+            bindings = <
+                                &none           &none           &none                                                   &trans          &trans          &trans
+                &none           &kp C_VOL_DN    &kp C_MUTE      &kp C_VOL_UP    &none                   &trans          &trans          &trans          &trans          &trans
+                &none           &kp C_PREV      &kp C_PP        &kp C_NEXT      &none                   &trans          &trans          &trans          &trans          &trans
+                &none           &kp C_BRI_DN    &none           &kp C_BRI_UP    &none                   &trans          &trans          &trans          &trans          &trans
                                                                 &none           &none                   &trans          &trans
             >;
         };
