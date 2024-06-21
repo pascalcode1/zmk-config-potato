@@ -25,8 +25,8 @@
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
             bindings = <&macro_press &kp LCTRL>,
-                       <&macro_param_1to1>
-                       <&macro_press &kp MACRO_PLACEHOLDER>
+                       <&macro_param_1to1>,
+                       <&macro_press &kp MACRO_PLACEHOLDER>,
                        <&macro_tap &kp C>,
                        <&macro_release &kp LCTRL>;
         };
@@ -36,11 +36,20 @@
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <125>;
             quick-tap-ms = <0>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+
+        cth: ctrl_tap_hold {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <125>;
+            quick-tap-ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&cm>, <&kp>;
+        }
     };
 
     keymap {
