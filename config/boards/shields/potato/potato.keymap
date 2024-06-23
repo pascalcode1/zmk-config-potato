@@ -74,7 +74,7 @@
                 &trans          &trans          &trans          &trans          &trans                  &none           &kp PAGE_UP     &kp HOME        &kp END         &kp PAGE_DOWN
                 &trans          &trans          &trans          &trans          &trans                  &kp K_APP       &kp LEFT_ARROW  &kp UP_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW
                 &trans          &trans          &trans          &trans          &trans                  &none           &kp DEL         &kp INSERT      &kp CAPS        &kp PSCRN
-                                                                &trans          &mo MEDIA               &none           &none
+                                                                &trans          &mo MEDIA               &kp RET         &none
             >;
         };
 
