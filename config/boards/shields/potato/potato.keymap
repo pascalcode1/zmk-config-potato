@@ -52,7 +52,7 @@
                                 &kp ESC         &kp GRAVE       &kp BSLH                                                &kp SQT         &kp LBKT        &kp RBKT
                 &kp Q           &kp W           &kp E           &kp R           &kp T                   &kp Y           &kp U           &kp I           &kp O           &kp P
                 &hm LALT A      &hm LSHIFT S    &hm LCTRL D     &hm LGUI F      &kp G                   &kp H           &hm LGUI J      &hm LCTRL K     &hm LSHIFT L    &hm LALT SEMI
-                &kp Z           &kp X           &cth C C        &kp V           &kp B                   &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH
+                &kp Z           &kp X           &cth C C        &cth V V        &kp B                   &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH
                                                                 &lt FUNC TAB    &lt NUMS RET            &lt NAV SPACE   &kp BSPC
             >;
         };
