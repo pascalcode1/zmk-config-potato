@@ -52,7 +52,7 @@
                                 &kp ESC         &kp GRAVE       &kp BSLH                                                &kp SQT         &kp LBKT        &kp RBKT
                 &kp Q           &kp W           &kp E           &kp R           &kp T                   &kp Y           &kp U           &kp I           &kp O           &kp P
                 &hm LALT A      &hm LSHIFT S    &hm LCTRL D     &hm LGUI F      &kp G                   &kp H           &hm LGUI J      &hm LCTRL K     &hm LSHIFT L    &hm LALT SEMI
-                &kp Z           &kp X           &cth C C        &cth V V        &kp B                   &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH
+                &cth Z Z        &cth X X        &cth C C        &cth V V        &kp B                   &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH
                                                                 &lt FUNC TAB    &lt NUMS RET            &lt NAV SPACE   &kp BSPC
             >;
         };
@@ -63,7 +63,7 @@
                 &kp KP_MINUS    &kp N7          &kp N8          &kp N9          &kp KP_DIVIDE           &kp EXCL        &kp AT          &kp HASH        &kp DOLLAR      &kp PERCENT
                 &kp KP_PLUS     &kp N4          &kp N5          &kp N6          &kp KP_MULTIPLY         &kp CARET       &kp AMPS        &kp ASTRK       &kp LPAR        &kp RPAR
                 &kp N0          &kp N1          &kp N2          &kp N3          &kp KP_DOT              &none           &kp MINUS       &kp UNDER       &kp EQUAL       &kp PLUS
-                                                                &none           &none                   &mo MEDIA       &none
+                                                                &mo MEDIA       &none                   &mo MEDIA       &none
             >;
         };
 
@@ -83,7 +83,7 @@
                 &trans          &kp F7          &kp F8          &kp F9          &trans                  &trans          &trans          &trans          &trans          &trans
                 &trans          &kp F4          &kp F5          &kp F6          &trans                  &trans          &trans          &trans          &trans          &trans
                 &trans          &kp F1          &kp F2          &kp F3          &trans                  &trans          &trans          &trans          &trans          &trans
-                                                                &none           &none                   &trans          &trans
+                                                                &none           &mo MEDIA               &trans          &trans
             >;
         };
 
