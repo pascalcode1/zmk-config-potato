@@ -44,6 +44,16 @@
             bindings = <&cm>, <&kp>;
         };
     };
+    
+    combos {
+        compatible = "zmk,combos";
+
+        fn_toggle_combo {
+            timeout-ms = <200>;
+            key-positions = <36 39>;    // RC(4,3) + RC(4,6)
+            bindings = <&tog GAME>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -107,15 +117,5 @@
                                                                 &lt FUNC LSHIFT &lt NUMS SPACE          &lt NAV SPACE   &kp BSPC
             >;
         }
-    };
-    
-    combos {
-        compatible = "zmk,combos";
-
-        fn_toggle_combo {
-            timeout-ms = <200>;
-            key-positions = <36 39>;    // RC(4,3) + RC(4,6)
-            bindings = <&tog GAME>;
-        };
     };
 };
