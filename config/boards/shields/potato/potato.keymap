@@ -114,7 +114,7 @@
                 &kp Q           &kp W           &kp E           &kp R           &kp T                   &kp Y           &kp U           &kp I           &kp O           &kp P
                 &kp A           &kp S           &kp D           &kp F           &kp G                   &kp H           &hm LGUI J      &hm LCTRL K     &hm LSHIFT L    &hm LALT SEMI
                 &kp Z           &kp X           &kp C           &kp V           &kp B                   &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH
-                                                                &kp LSHIFT      &kp SPACE               &lt NAV SPACE   &kp BSPC
+                                                                &kp LSHIFT      &lt NUMS SPACE          &lt NAV SPACE   &kp BSPC
             >;
         };
     };
