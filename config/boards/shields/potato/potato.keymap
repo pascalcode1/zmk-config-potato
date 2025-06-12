@@ -116,6 +116,6 @@
                 &kp Z           &kp X           &kp C           &kp V           &kp B                   &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH
                                                                 &lt FUNC LSHIFT &lt NUMS SPACE          &lt NAV SPACE   &kp BSPC
             >;
-        }
+        };
     };
 };
